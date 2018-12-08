@@ -1,0 +1,44 @@
+/*小于768px*/
+@media (max-width: 768px) {
+    .logo{
+        margin-left: 10px;
+    }
+    .deng{
+        position: absolute;
+        top: 25px;
+        margin-left: 50%;
+    }
+
+    .sou{
+        display: none;
+    }
+    .tu{
+        display: inline;
+    }
+
+}
+/*大于768px*/
+@media (min-width: 768px) {
+    .logo{
+        margin-left: 10%;
+    }
+    .yin{
+        margin-top: 10px;
+    }
+.sou{
+    margin-top: 18px;
+}
+.deng{
+    margin-top: 10px;
+}
+
+
+}
+
+body{
+
+    background-image: url("../images/bannerbg.png");
+    background-repeat:no-repeat;
+    background-size:100% 500px ;
+
+}
